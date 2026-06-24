@@ -1,3 +1,66 @@
 header {
   font-size: 1em;
 }
+
+/* navigation bar section  */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 15px;
+  font-size: 1em;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-right a {
+  padding: 10px 10px;
+  margin: 0px 5px;
+  font-size: clamp(0.8em, 2vw, 1.5em);
+}
+
+@media (max-width: 576px) {
+  .nav-right {
+    flex-direction: column;
+  }
+  .nav-right a {
+    padding: 5px 5px;
+  }
+}
+
+.register-login-btn {
+  border: 1px solid black;
+  padding: 4px 5px;
+  margin: 4px 5px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.register-login-btn i {
+  margin: 7px;
+  font-size: clamp(0.8em, 2vw, 1.5em);
+}
+
+.register-login-btn a {
+  margin: 0px 10px;
+  font-size: clamp(0.5em, 2vw, 0.9em);
+  font-weight: bold;
+}
+
+@media (max-width: 576px) {
+  .register-login-btn a {
+    display: none;
+  }
+  .register-login-btn i {
+    font-size: 0.8em;
+  }
+}
