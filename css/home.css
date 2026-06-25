@@ -21,6 +21,7 @@ nav {
 }
 
 .nav-right a {
+  color: white;
   padding: 10px 10px;
   margin: 0px 5px;
   font-size: clamp(0.8em, 2vw, 1.5em);
@@ -35,8 +36,17 @@ nav {
   }
 }
 
+.nav-right a :hover {
+  color: #666;
+}
+
+.nav-left :hover {
+  background-color: #555;
+  cursor: pointer;
+}
+
 .register-login-btn {
-  border: 1px solid black;
+  border: 1px solid white;
   padding: 4px 5px;
   margin: 4px 5px;
   border-radius: 25px;
@@ -47,10 +57,12 @@ nav {
 
 .register-login-btn i {
   margin: 7px;
+  color: white;
   font-size: clamp(0.8em, 2vw, 1.5em);
 }
 
 .register-login-btn a {
+  color: white;
   margin: 0px 10px;
   font-size: clamp(0.5em, 2vw, 0.9em);
   font-weight: bold;
