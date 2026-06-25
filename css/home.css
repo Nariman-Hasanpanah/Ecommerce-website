@@ -223,3 +223,110 @@ nav {
   color: white;
   padding-top: 5px;
 }
+
+/* super offer section  */
+
+.super-offer {
+  padding: 10px 30px;
+  font-size: 1em;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+@media (max-width: 960px) {
+  .super-offer {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+
+.super-offer-box {
+  text-align: center;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+  margin: 0px 10px;
+}
+
+.super-offer-box-title {
+  background-color: #e74c3c;
+  color: white;
+  padding: 8px 30px;
+  display: inline-block;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.box-body .image-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  text-align: center;
+  padding: 30px;
+}
+
+@media (max-width: 768px) {
+  .box-body .image-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.image-container img {
+  width: 100%;
+}
+
+.spesification {
+  padding: 30px 5px;
+}
+
+.spesification .price-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.price-row .price {
+  margin-left: 60px;
+  color: #444;
+  font-size: 1.2em;
+}
+
+.price-row .off {
+  color: white;
+  background-color: #e74c3c;
+  padding: 5px 20px;
+  border-radius: 25px;
+}
+
+.spesification .title {
+  margin: 40px 0px;
+  font-weight: bold;
+  color: #444;
+  font-size: 1.4em;
+  cursor: pointer;
+}
+
+.counter-down {
+  border-top: 1px solid rgba(0, 0, 0, 0.4);
+  margin: 10px 40px;
+  padding-top: 40px;
+  font-weight: bold;
+  color: #666;
+  font-size: 1.5em;
+}
+
+.remaining-time {
+  color: #777;
+  font-size: 0.8em;
+}
+
+.banner {
+  text-align: left;
+  padding: 0px 5px;
+}
+
+.banner img {
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.6);
+  width: 80%;
+  height: 100%;
+}
