@@ -123,3 +123,103 @@ nav {
 .slider .buttons i:hover {
   color: rgba(255, 255, 255, 0.4);
 }
+
+/* products section  */
+
+.products {
+  padding: 20px 10px;
+  font-size: 1em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.shopping-card {
+  text-align: center;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  margin: 15px 30px;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.shopping-card:hover {
+  margin: 10px 25px;
+  cursor: pointer;
+}
+
+.img-sec {
+  position: relative;
+}
+
+.img-sec img {
+  width: 60%;
+}
+
+.img-sec .hot-offer {
+  background-color: #e74c3c;
+  color: white;
+  padding: 3px 5px;
+  border-radius: 5px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 0.9em;
+}
+
+.img-sec .stars {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  color: #f1c40f;
+}
+
+.shopping-card .title {
+  color: #333;
+  margin: 15px;
+}
+
+.shopping-card .buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 5px;
+}
+
+.shopping-card .buttons .right .price {
+  color: #666;
+  font-weight: bold;
+}
+
+.shopping-card .buttons .left {
+  display: flex;
+}
+
+.expand-btns {
+  display: flex;
+  margin-left: 5px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2ecc71;
+  color: white;
+  width: 40px;
+  padding: 5px 12px;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+.expand-btns:hover {
+  width: 100px;
+}
+
+.expand-btns:hover .b-text {
+  display: block;
+}
+
+.expand-btns .b-text {
+  display: none;
+  color: white;
+}
+
+.expand-btns .b-icon {
+  color: white;
+  padding-top: 5px;
+}
