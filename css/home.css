@@ -330,3 +330,31 @@ nav {
   width: 80%;
   height: 100%;
 }
+
+/* carousel section */
+
+.carousel-list img {
+  width: 60% !important ;
+  margin: auto;
+}
+
+.owl-carousel .item {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 3fr));
+}
+
+.owl-stage-outer {
+  direction: ltr;
+}
+
+.carousel-list .title {
+  padding: 20px 20px;
+  padding-bottom: 5px;
+}
+
+.carousel-list .title span {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #444;
+  border-bottom: 2px solid #e74c3c;
+}
