@@ -64,3 +64,50 @@ nav {
     font-size: 0.8em;
   }
 }
+
+/* slider section  */
+
+.slider {
+  position: relative;
+  font-size: 1em;
+}
+
+.slides .item {
+  position: relative;
+  display: none;
+}
+
+.slides .item img {
+  width: 100%;
+}
+
+.slides .item span {
+  position: absolute;
+  color: white;
+  right: 20%;
+  top: 40%;
+  font-size: clamp(0.5em, 2vw, 1.5em);
+}
+
+.slides .active {
+  display: block;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+}
+.slider .buttons {
+  position: absolute;
+  bottom: 30px;
+  left: 47%;
+  z-index: 1;
+  font-size: clamp(0.5em, 2vw, 1em);
+}
+
+.slider .buttons i {
+  color: white;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.slider .buttons i:hover {
+  color: rgba(255, 255, 255, 0.4);
+}
