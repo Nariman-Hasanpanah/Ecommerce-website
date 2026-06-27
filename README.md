@@ -18,10 +18,12 @@ Owl Carousel
 Animate.css (Slider animation)
 
 📸 Preview:
+Home Page:
 ![Home Page](./images/preview/home-preview.png)
+Login Page:
 ![Login Page](./images/preview/login-preview.png)
 
 👨‍💻 Author:
-Name: Nariman
-GitHub: https://github.com/Nariman-Hasanpanah
+Name: Nariman Hasanpanah, 
+GitHub: https://github.com/Nariman-Hasanpanah, 
 Project Type: Frontend Practice Project
